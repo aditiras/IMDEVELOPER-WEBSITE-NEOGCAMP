@@ -9,8 +9,10 @@
 
 :root {
     --main-color: #64748b;
-    --primary-color: #a26ada;
-    --bg-color: white;
+    --primary-color: #db2777;
+    --white-color: white;
+    --gray-color: #4b5563;
+    --bg-gray-color: #f4f4f5;
   }
 
 
@@ -21,21 +23,114 @@
     width: 100%;
 }
 
-.navsection {
-    background-color: var(--primary-color);
-    height: 80px;
+.navradius { 
+    border-bottom-left-radius: 15px;
 }
 
-.navsection li{
+.navsection {
+    background-color: var(--primary-color);
+    height: 95px;
+}
+
+.navlist{
     list-style: none;
     display: inline-block;
 }
 
-.navsection a{
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-
+.brand {
+    color: var(--white-color);
+    padding:  15px 30px;
 }
+
+.navlinks{
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.navitems{  
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    padding-right: 85px;
+}
+
+.imgsection {
+    text-align: center;
+    height: 500px;
+}
+
+.imgsection img {
+    width: 400px;
+    height: 400px;
+}
+
+.para {
+    color: var(--gray-color);
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+
+.para span {
+    color: var(--primary-color);
+}
+
+.mainsection {
+    text-align: center;
+}
+
+.skills {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.head1 { 
+    background-color: var(--bg-gray-color);
+}
+
+.projectbox {
+    border: 1px solid black;
+    height: 40px;
+    width: 140px;
+    text-decoration: none;
+    border-radius: 25px;
+    padding-top: 10px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+#blogsbox { 
+    border: 1px solid var(--primary-color);
+    background-color: none;
+    color: none;
+}
+
+
+.footersection {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 30px;
+}
+
+.footname{
+    color: var(--white-color);
+}
+
+.footeritems {
+    display: flex;
+    gap: 50px;
+}
+
+
 
   
