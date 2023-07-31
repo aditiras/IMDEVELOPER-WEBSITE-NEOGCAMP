@@ -37,12 +37,8 @@
 }
 
 .brand {
-    padding:  15px 30px;
-}
-
-.brand a{
-    text-decoration: none;
     color: var(--white-color);
+    padding:  15px 30px;
 }
 
 .navlinks{
