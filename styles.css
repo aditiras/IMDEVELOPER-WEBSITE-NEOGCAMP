@@ -59,6 +59,10 @@
     padding-right: 85px;
 }
 
+.navlist a:hover {
+    color: black;
+}
+
 .imgsection {
     text-align: center;
     height: 500px;
@@ -116,8 +120,17 @@
     width: 650px;
 }
 
+.skills a:hover{
+    color: var(--primary-color);
+    background-color: white;
+}
+
 .head1 { 
     background-color: var(--bg-gray-color);
+}
+
+.head1 a:hover{
+    color: black;
 }
 
 .projectlink{
@@ -143,6 +156,11 @@
 .links {
     display: flex; 
     gap: 20px;
+}
+
+.firstlink a:hover{
+    color: var(--primary-color);
+    background-color: white;
 }
 
 
