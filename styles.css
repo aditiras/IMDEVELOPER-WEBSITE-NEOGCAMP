@@ -41,6 +41,11 @@
     padding:  15px 30px;
 }
 
+.brand a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
 .navlinks{
     text-decoration: none;
     color: var(--white-color);
